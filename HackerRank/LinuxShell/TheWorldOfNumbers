@@ -1,0 +1,9 @@
+#!/bin/bash
+read -p "Enter x: " x
+read -p "Enter y: " y
+
+echo $(( x + y ))
+echo $(( x - y ))
+echo $(( x * y ))
+echo $(( x / y ))
+

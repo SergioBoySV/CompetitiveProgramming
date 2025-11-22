@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read -p "Enter x: " x
+read -p "enter y: " y
+
+if [[ $x < $y ]]; then
+    echo "X is less than Y"
+elif [[ $x > $y ]]; then
+    echo "X is greater than Y"
+elif [[ $x == $y ]]; then
+    echo "X is equal to Y"
+fi
+

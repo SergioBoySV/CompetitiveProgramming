@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while [[ -z "$name" ]]; do
+    read -p "What is your name? " name
+done
+
+echo "Welcome $name"
+
